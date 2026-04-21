@@ -1,0 +1,26 @@
+{
+  "name": "mf-c",
+  "version": "1.0.0",
+  "description": "Vue Microfrontend",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development --port 4203",
+    "build": "webpack --mode production",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "vue": "3.5.24"
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.1",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "5.7.3",
+    "vue-loader": "^17.4.2",
+    "vue-tsc": "^2.2.0",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
